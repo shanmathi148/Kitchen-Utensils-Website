@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    background-image: url(images/about_bg.jpg);
+    background-size: cover;
+}
+
+.about{
+    text-align: center;
+    padding: 15%;
+    background-color: rgba(186, 186, 186, 0);
+    backdrop-filter: blur(5px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about h1{
+    color: #4d3832;
+}
+
+.about p,ol{
+    color: #0a0a0a;
+    font-size: 20px;
+}
+
+.about ol{
+    text-align: left;
+}
+

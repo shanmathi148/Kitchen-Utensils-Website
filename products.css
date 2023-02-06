@@ -1,0 +1,61 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    background-image: url(images/products_bg.jpg);
+    background-size: cover;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: rgba(186, 186, 186, 0);
+}
+
+.prod-container{
+    background-color: rgba(6, 6, 6, 0);
+    backdrop-filter: blur(5px);
+    margin: 10px;
+    width: 300px;
+    padding: 20px 10px;
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.prod-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+  }
+  
+  .prod-img {
+    width: 100%;
+    height: 175px;
+  }
+  
+  .prod-name {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #100f0f;
+  }
+  
+  .course-price {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+.buy{
+    width: fit-content;
+    margin: auto;
+    border: 1px solid wheat;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buy a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
