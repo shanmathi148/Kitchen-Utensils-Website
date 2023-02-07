@@ -6,6 +6,10 @@ html, body{
     background-size: cover;
 }
 
+*{
+    text-align: center;
+}
+
 .pay{
     border: 1px solid white;
     margin: auto;
@@ -20,4 +24,20 @@ html, body{
 .pay img{
     width: 50%;
     height: 50%;
+}
+
+h2{
+    color: wheat;
+}
+
+#feedback{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(125, 33, 33);
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#feedback:hover{
+    box-shadow: 2px 2px 1px 1px white;
 }
