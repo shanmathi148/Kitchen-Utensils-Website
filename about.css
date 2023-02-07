@@ -28,3 +28,29 @@ html, body{
     text-align: left;
 }
 
+.checked {
+    color: orange;
+  }
+
+.a3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.a2{
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    max-width: 130%;
+}
+
+.cust{
+    border: 2px solid wheat;
+    margin: 10px;
+    width: 300px;
+    padding: 20px 10px;
+}
